@@ -1,4 +1,4 @@
-# 🔐 Password Manager using Apton
+# 🔐 Password Manager using Blockchain
 
 This project is a Password Manager built on the Aptos blockchain utilizing the Move programming language for smart contracts and TypeScript for the frontend. The password manager ensures secure storage and access to sensitive credentials by leveraging blockchain's transparency and immutability.
 
