@@ -79,6 +79,21 @@ The frontend, built in **TypeScript**, interacts with the Aptos blockchain to pr
 
 ---
 
+## Deploy the Smart Contract
+To deploy the smart contract:
+
+Install Aptos CLI.
+
+Update the Move.toml file with your wallet address:
+
+aptos init
+Add your Account addr here for Deployment
+todolist_addr='0x5448e45d5c73f4f44a91fe9bb11748e11e79153b4e4b658287c3f901d2ca4f78'
+Compile and publish the contract:
+
+aptos move compile
+aptos move publish
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
